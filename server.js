@@ -41,9 +41,10 @@ app.engine("handlebars", exphbs({
 app.set("view engine", "handlebars");
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/findscraper");
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/findscraper"
+mongoose.connect("mongodb://heroku_lsh61zsr:ghp82sdqup681fe1smnjo5cv44@ds247587.mlab.com:47587/heroku_lsh61zsr");
 var db = mongoose.connection;
-
+// mongodb://heroku_lsh61zsr:ghp82sdqup681fe1smnjo5cv44@ds247587.mlab.com:47587/heroku_lsh61zsr
 db.on("error", function(error) {
   console.log("Mongoose Error: ", error);
 });
