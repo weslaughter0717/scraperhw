@@ -1,0 +1,38 @@
+.btn{
+    height: 35px;
+    position: relative;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+body{
+    background-image: url("http://www.gamershalt.com/wp-content/uploads/2016/06/top-games.jpg");
+    position: absolute;
+    height: auto;
+    position: relative;
+}
+#help{
+    width: 100%;
+    background-color: orange;
+    border-color: orange;
+    padding: 0%;
+}
+#btn{
+    background-color: blue;
+}
+.panel{
+    opacity: 0.5;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+.container{
+    background-color: red;
+    opacity: 0.89;
+    font-weight: bold;
+}
+.jumbotron{
+    background-color: orange;
+    opacity: 1;
+}
