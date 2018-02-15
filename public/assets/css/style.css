@@ -8,9 +8,12 @@
 }
 body{
     background-image: url("http://www.gamershalt.com/wp-content/uploads/2016/06/top-games.jpg");
-    position: absolute;
-    height: auto;
-    position: relative;
+    background-repeat: no-repeat;
+    background-color: #8A2BE2;
+    background-attachment: fixed;
+    background-position: center; 
+    margin-bottom: 60em;
+    padding: 10px 30px 10px 10px;
 }
 #help{
     width: 100%;
